@@ -1117,9 +1117,9 @@
   },
   {
     "question": "Who is Virat Kohli?",
-    "answer": "Indian Cricketer",
+    "answer": "Virat Kohli is an Indian international cricketer who plays Test and ODI cricket for the national team and is a former captain in all formats. He is a right-handed batsman and an occasional right arm medium pace bowler.",
     "question_type": "General Knowledge For Kids",
-    "image": ""
+    "image": "https://c.ndtvimg.com/2025-04/uqln4ccs_virat-kohli_625x300_11_April_25.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
   },
   {
     "question": "How many noses do you have?",
@@ -1845,7 +1845,7 @@
     "question": "Identify the Tree",
     "answer": "A. Coconut Tree",
     "question_type": "GK Questions For Class 1",
-    "image": "images/0.jpeg"
+    "image": "https://www.cocofina.com/cdn/shop/articles/Coconut_tree.jpg?v=1549888135"
   },
   {
     "question": "Who is the king of the jungle?",
@@ -1899,7 +1899,7 @@
     "question": "Identify the bird",
     "answer": "Peacock",
     "question_type": "GK Questions For Class 1",
-    "image": "images/1.jpeg"
+    "image": "https://images.stockcake.com/public/d/2/8/d289ec1f-7dfc-41ff-97b3-8b9636c2d760_large/peacock-displays-feathers-stockcake.jpg"
   },
   {
     "question": "What is the color of your hair?",
@@ -2445,7 +2445,13 @@
     "question": "What is the name of this beautiful monument?",
     "answer": "Taj Mahal",
     "question_type": "GK Questions For Class 2",
-    "image": "images/2.jpeg"
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWwlMjBpbmRpYXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "question": "What is the old name of Ayodhya?",
+    "answer": "Ayodhya, also known as Saket, is an ancient city of India, is the birthplace of Bhagwan Shri Ram and setting of the great epic Ramayana. Ayodhya used to be the capital of the ancient Kosala Kingdom. It has an average elevation of 93 meters (305 feet).",
+    "question_type": "GK Questions For Class 2",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/ram-janmaboomi-ayodhya-uttar%20pradesh-1?qlt=82&ts=1726649833165"
   },
   {
     "question": "How many legs does a spider have?",
@@ -2454,10 +2460,10 @@
     "image": ""
   },
   {
-    "question": "Name this famous Indian Cricketer.",
-    "answer": "Sachin Tendulkar",
+    "question": "Why is Sachin tendulkar so famous?",
+    "answer": "Fondly called the “God of Cricket” or “Master Blaster,” Sachin Tendulkar is considered one of the greatest batsmen of all time in the sport that is considered a national institution in India, cricket Sachin Tendulkar led the Team Swachh Bharat campaign for UNICEF in India",
     "question_type": "GK Questions For Class 2",
-    "image": "images/3.jpeg"
+    "image": "https://www.jagranimages.com/images/newimg/23042023/23_04_2023-sachin_world_cup_trophy_23393532.jpg"
   },
   {
     "question": "Who is popularly known as the “Iron Man of India”?",
@@ -2561,18 +2567,7 @@
     "question_type": "GK Questions For Class 2",
     "image": ""
   },
-  {
-    "question": "What is the name of this famous painting?",
-    "answer": "Mona Lisa",
-    "question_type": "GK Questions For Class 2",
-    "image": "images/4.jpeg"
-  },
-  {
-    "question": "How many cats can you see in this picture?",
-    "answer": "10 cats",
-    "question_type": "GK Questions For Class 2",
-    "image": "images/5.jpeg"
-  },
+  
   {
     "question": "How do you relate to your maternal grandfather?",
     "answer": "Mother’s father",
@@ -3093,7 +3088,7 @@
     "question": "Identify the Historical monument",
     "answer": "Charminar",
     "question_type": "GK Questions For Class 3",
-    "image": "images/6.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4qv4lQC16v12Hizp8n1qw6tADNQGkTCsWSA&s"
   },
   {
     "question": "Name the tallest building in the world.",
@@ -3162,10 +3157,10 @@
     "image": ""
   },
   {
-    "question": "Identify the scientist.",
-    "answer": "Albert Einstein",
+    "question": "who is Albert Einstein?",
+    "answer": "Albert Einstein was a German-born theoretical physicist who is best known for developing the theory of relativity. Einstein also made important contributions to quantum mechanics. His mass–energy equivalence formula E = mc², which arises from special relativity, has been called the world's most famous equation",
     "question_type": "GK Questions For Class 3",
-    "image": "images/7.jpeg"
+    "image": "https://www.princeton.edu/sites/default/files/styles/1x_full_2x_half_crop/public/images/2022/03/Albert_Einstein_Head_H3000x1688.jpg?itok=QUAc_yMr"
   },
   {
     "question": "How many days are there in a Leap Year?",
@@ -4314,10 +4309,10 @@
     "image": ""
   },
   {
-    "question": "Identify the Tennis Player.",
-    "answer": "Roger Federer",
+    "question": "who is Roger Federer?.",
+    "answer": "Tennis Player",
     "question_type": "GK Questions For Class 5",
-    "image": "images/8.jpeg"
+    "image": "https://cdn.britannica.com/22/188722-050-BB193EA3/Roger-Federer-US-Open-2007.jpg"
   },
   {
     "question": "Which is the coldest planet in our solar system?",
@@ -4485,7 +4480,7 @@
     "question": "Who was the inventor of the light bulb?",
     "answer": "Thomas Alwa Edison",
     "question_type": "GK Questions For Class 6",
-    "image": "images/9.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpwc0_V71KuNym_LXcOyZ4Pu_e7YMOLIwvA&s"
   },
   {
     "question": "Opium is obtained from the dry latex from which part of the Papaver somniferum Plant?",
@@ -5547,7 +5542,7 @@
     "question": "The terms’ Bull and Bear’ is associated with __________.",
     "answer": "Stock Market",
     "question_type": "GK Questions For Class 7",
-    "image": "images/10.jpeg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyzup1EU2P5i4D1VzW4zL6_pvtY-7jDiBrw&s"
   },
   {
     "question": "Where are the HeadQuarters of UNESCO?",

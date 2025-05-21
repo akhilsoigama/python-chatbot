@@ -1,62 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Chatbot Interface</title>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
-        #chatbox { border: 1px solid #ccc; height: 400px; overflow-y: scroll; padding: 10px; margin-bottom: 10px; }
-        #userInput { width: 70%; padding: 8px; }
-        button { padding: 8px 15px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
-        .user { color: blue; margin-bottom: 5px; }
-        .bot { color: green; margin-bottom: 5px; }
+        #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll; }
+        #input { width: 80%; padding: 5px; }
+        button { padding: 5px 10px; }
     </style>
 </head>
 <body>
-    <h1>Programming Concepts Chatbot</h1>
-    <div id="chatbox"></div>
-    <input type="text" id="userInput" placeholder="Ask me about programming...">
+    <h1>Chatbot</h1>
+    <div id="chat"></div>
+    <input id="input" type="text" placeholder="Type your message...">
     <button onclick="sendMessage()">Send</button>
-
     <script>
-        function displayMessage(sender, message) {
-            const chatbox = document.getElementById('chatbox');
-            const messageElement = document.createElement('div');
-            messageElement.classList.add(sender.toLowerCase());
-            messageElement.innerHTML = `<strong>${sender}:</strong> ${message}`;
-            chatbox.appendChild(messageElement);
-            chatbox.scrollTop = chatbox.scrollHeight;
-        }
-
         async function sendMessage() {
-            const userInput = document.getElementById('userInput');
-            const message = userInput.value.trim();
-            
-            if (message) {
-                displayMessage('You', message);
-                userInput.value = '';
-                
-                try {
-                    const response = await fetch('http://localhost:5000/chat', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({ message: message })
-                    });
-                    
-                    const data = await response.json();
-                    displayMessage('Bot', data.response);
-                } catch (error) {
-                    displayMessage('Bot', "Sorry, I'm having trouble connecting to the server.");
+            const input = document.getElementById('input').value;
+            if (!input) return;
+            const chat = document.getElementById('chat');
+            chat.innerHTML += `<p><strong>You:</strong> ${input}</p>`;
+            try {
+                const response = await fetch('http://localhost:3000/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: input })
+                });
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`HTTP error! Status: ${response.status}, Message: ${errorText}`);
                 }
+                const data = await response.json();
+                if (data.error) {
+                    chat.innerHTML += `<p><strong>Bot:</strong> Error: ${data.error}</p>`;
+                } else {
+                    chat.innerHTML += `<p><strong>Bot:</strong> ${data.response}</p>`;
+                }
+            } catch (error) {
+                chat.innerHTML += `<p><strong>Bot:</strong> Error: ${error.message}</p>`;
             }
+            document.getElementById('input').value = '';
+            chat.scrollTop = chat.scrollHeight;
         }
-
-        // Allow pressing Enter to send message
-        document.getElementById('userInput').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                sendMessage();
-            }
+        document.getElementById('input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
         });
     </script>
 </body>

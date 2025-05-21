@@ -1,0 +1,129 @@
+{
+    "description": "A glossary from Coursera: <Data Science Terms: A to Z Glossary>",
+    "glossary": [
+        {
+            "term": "Algorithm",
+            "definition": "An algorithm is a set of instructions or rules to follow in order to complete a specific task. Algorithms can be particularly useful when you’re working with big data or machine learning. Data analysts may use algorithms to organize or analyze data, while data scientists may use algorithms to make predictions or build models."
+        },
+        {
+            "term": "Artificial intelligence (AI)",
+            "definition": "<a href=\"https://www.coursera.org/articles/ai-vs-deep-learning-vs-machine-learning-beginners-guide\" target=\"_self\" rel=\"\">Artificial intelligence</a> (AI) uses computer science and data to enable problem solving in machines. In this case, the intelligence is “artificial” because it’s a computer programmed to perform tasks commonly associated with human intelligence."
+        },
+        {
+            "term": "Big data",
+            "definition": "<a href=\"https://www.coursera.org/articles/what-is-big-data-a-laypersons-guide\" target=\"_self\" rel=\"\">Big data</a> is a large collection of data characterized by the three V’s: volume, velocity and variety. Volume refers to the amount of data—big data deals with high volumes of data; velocity refers to the rate at which data is collected—big data is collected at a high velocity and often streams directly into memory; and variety refers to the range of data formats—big data tends to have a high variety of structured, semi-structured, and unstructured data, as well as a variety of formats such as numbers, text strings, images, and audio."
+        },
+        {
+            "term": "Business intelligence (BI)",
+            "definition": "Business intelligence (BI) is data analytics used to empower organizations to make data-driven business decisions. <a href=\"https://www.coursera.org/articles/business-intelligence-analysts-what-they-are-and-how-to-become-one\" target=\"_self\" rel=\"\">Business intelligence analysts</a> analyze business data like revenue, sales, or customer data, and offer recommendations based on their analysis."
+        },
+        {
+            "term": "Changelog",
+            "definition": "A changelog is a list documenting all of the steps you took when working with your data. This can be helpful in the event that you need to return to your original data or recall how you prepared your data for analysis."
+        },
+        {
+            "term": "Classification",
+            "definition": "Classification is a machine learning problem that organizes data into categories. You may use this to create email spam filters, for example. Some examples of algorithms commonly used to create classification models are logistic regression, decision trees, K-nearest neighbor (KNN), and random forest."
+        },
+        {
+            "term": "Dashboard",
+            "definition": "A <a href=\"https://www.coursera.org/articles/what-is-dashboard\" target=\"_self\" rel=\"\">dashboard</a> is a tool used to monitor and display live data. Dashboards are typically connected to databases and feature visualizations that automatically update to reflect the most current data in the database."
+        },
+        {
+            "term": "Data analytics",
+            "definition": "<a href=\"https://www.coursera.org/articles/data-analytics\" target=\"_self\" rel=\"\">Data analytics</a> is the collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision making. Data analytics encompasses data analysis (the process of deriving information from data), data science (using data to theorize and forecast) and data engineering (building data systems). Data analysts, data scientists, and data engineers are all data analytics professionals."
+        },
+        {
+            "term": "Data architecture",
+            "definition": "Data architecture, also called data design, is the plan for an organization’s data management system. This can include all touchpoints in the data lifecycle, including how the data is gathered, organized, utilized, and discarded. <a href=\"https://www.coursera.org/articles/data-architect\" target=\"_self\" rel=\"\">Data architects</a> design the blueprints that organizations use for their data management systems."
+        },
+        {
+            "term": "Data cleaning",
+            "definition": "Data cleaning, cleansing, or scrubbing is the process of preparing raw data for analysis. When cleaning your data, you verify that your data is accurate, complete, consistent, and unbiased. It’s important to make sure you have clean data prior to analysis because unclean or dirty data can lead to inaccurate conclusions and misguided business decisions."
+        },
+        {
+            "term": "Data engineering",
+            "definition": "Data engineering is the process of making data accessible for analysis. <a href=\"https://www.coursera.org/articles/what-does-a-data-engineer-do-and-how-do-i-become-one\" target=\"_self\" rel=\"\">Data engineers</a> build systems that collect, manage, and convert raw data into usable information. Some common tasks include developing algorithms to transform data into a more useful form, building database pipeline architectures, and creating new data analysis tools. "
+        },
+        {
+            "term": "Data enrichment",
+            "definition": "Data enrichment the process of is adding data to your existing dataset. You’d typically enrich your data during the data transformation process as you are getting ready to begin your analysis if you realize you need additional data in order to answer your business question."
+        },
+        {
+            "term": "Data governance",
+            "definition": "Data governance is the formal plan for the way an organization manages company data. Data governance encompasses rules for the way data is accessed and used and can include accountability and compliance rules."
+        },
+        {
+            "term": "Data lake",
+            "definition": "A <a href=\"https://www.coursera.org/articles/data-lake-vs-data-warehouse\" target=\"_self\" rel=\"\">data lake</a> is a data storage repository designed to capture and store a large amount of structured, semi-structured, and unstructured raw data. Data scientists use the data in data lakes for machine learning or AI algorithms and models, or they can process the data and transfer it to a data warehouse."
+        },
+        {
+            "term": "Data mart",
+            "definition": "A <a href=\"https://www.coursera.org/articles/data-mart-vs-data-warehouse\" target=\"_self\" rel=\"\">data mart</a> is a subset of a data warehouse that houses all processed data relevant to a specific department. While a data warehouse may contain data pertaining to the finance, marketing, sales, and human resources teams, a data mart may isolate the finance team data."
+        },
+        {
+            "term": "Data mining",
+            "definition": "Data mining is closely examining data to identify patterns and glean insights. Data mining is a central aspect of data analytics; the insights you find during the mining process will inform your business recommendations."
+        },
+        {
+            "term": "Data modeling",
+            "definition": "Data modeling is the process of mapping and building data pipelines that connect data sources for analysis. A data model is a tool that implements those pipelines and organizes data across data sources. <a href=\"https://www.coursera.org/articles/what-is-a-data-modeler\" target=\"_self\" rel=\"\">Data modelers</a> are systems analysts who work with data architects and database administrators to design databases and data systems."
+        },
+        {
+            "term": "Data visualization",
+            "definition": "<a href=\"https://www.coursera.org/articles/data-visualization\" target=\"_self\" rel=\"\">Data visualization</a> is the representation of information and data using charts, graphs, maps, and other visual tools. With strong data visualizations, you can foster storytelling, make your data accessible to a wider audience, identify patterns and relationships, and explore your data further."
+        },
+        {
+            "term": "Data warehouse",
+            "definition": "A <a href=\"https://www.coursera.org/articles/data-warehouse\" target=\"_self\" rel=\"\">data warehouse</a> is a centralized data repository that stores processed, organized data from multiple sources. Data warehouses may contain a combination of current and historical data that has been extracted, transformed, and loaded from internal and external databases. "
+        },
+        {
+            "term": "Data wrangling",
+            "definition": "<a href=\"https://www.coursera.org/articles/data-wrangling\" target=\"_self\" rel=\"\">Data wrangling</a>, also called data munging or data remediation, is the process of converting raw data into a usable form. There are four stages of the munging process: discovery, data transformation, data validation, and publishing. The data transformation stage can be broken down further into tasks like data structuring, data normalization or denormalization, data cleaning, and data enrichment."
+        },
+        {
+            "term": "Database",
+            "definition": "A <a href=\"https://www.coursera.org/articles/what-is-database\" target=\"_self\" rel=\"\">database</a> is an organized collection of information that can be searched, sorted, and updated. This data is often stored electronically in a computer system called a database management system (DBMS). Oftentimes, you’ll need to use a programming language, such as structured query language (SQL), to interact with your database."
+        },
+        {
+            "term": "Deep learning",
+            "definition": "<a href=\"https://www.coursera.org/articles/what-is-deep-learning\" target=\"_self\" rel=\"\">Deep learning</a> is a machine learning technique that layers algorithms and computing units—or neurons—into what is called an artificial neural network (ANN). Unlike machine learning, deep learning algorithms can improve incorrect outcomes through repetition without human intervention. These deep neural networks take inspiration from the structure of the human brain."
+        },
+        {
+            "term": "Machine learning",
+            "definition": "<a href=\"https://www.coursera.org/articles/types-of-machine-learning\" target=\"_self\" rel=\"\">Machine learning</a> is a subset of AI in which algorithms mimic human learning while processing data. With machine learning, algorithms can improve over time, becoming increasingly accurate when making predictions or classifications. <a href=\"https://www.coursera.org/articles/what-is-machine-learning-engineer\" target=\"_self\" rel=\"\">Machine learning engineers</a> build, design, and maintain AI and machine learning systems."
+        },
+        {
+            "term": "Relational database",
+            "definition": "A <a href=\"https://www.coursera.org/articles/relational-database\" target=\"_self\" rel=\"\">relational database</a> is a database that contains several tables with related information. Even though data is stored in separate tables, you can access related data across several tables with a single query. For example, a relational database may have one table for inventory and another table for customer orders. When you look up a specific product in your relational database, you can retrieve both inventory and customer order information at the same time."
+        },
+        {
+            "term": "Regression",
+            "definition": "Regression is a machine learning problem that uses data to predict future outcomes. Some examples of algorithms commonly used to create regression models are linear regression and ridge regression."
+        },
+        {
+            "term": "Reinforcement learning",
+            "definition": "Reinforcement learning is a type of machine learning that learns by interacting with its environment and getting positive reinforcement for correct predictions and negative reinforcement for incorrect predictions. This type of machine learning may be used to develop autonomous vehicles. Common algorithms are temporal difference, deep adversarial networks, and Q-learning."
+        },
+        {
+            "term": "Structured Data",
+            "definition": "Structured data is formatted data; for example, data that is organized into rows and columns. Structured data is typically easier to analyze than unstructured data because of its tidy formatting."
+        },
+        {
+            "term": "Structured Query Language (SQL)",
+            "definition": "Structured Query Language, or <a href=\"https://www.coursera.org/articles/what-does-sql-stand-for\" target=\"_self\" rel=\"\">SQL</a> (pronounced “sequel”), is a computer programming language used to manage relational databases. It’s among the most common languages for database management."
+        },
+        {
+            "term": "Supervised learning",
+            "definition": "Supervised learning is a type of machine learning that learns from labeled historical input and output data. It’s “supervised” because you are feeding it labeled information. This type of machine learning may be used to predict real estate prices or find disease risk factors. Common algorithms used during supervised learning are neural networks, decision trees, linear regression, and support vector machines."
+        },
+        {
+            "term": "Unstructured data",
+            "definition": "<a href=\"https://www.coursera.org/articles/what-is-unstructured-data\" target=\"_self\" rel=\"\">Unstructured data</a> is data that is not organized in any apparent way. In order to analyze unstructured data, you’ll typically need to implement some type of organization."
+        },
+        {
+            "term": "Unsupervised learning",
+            "definition": "Unsupervised learning is a machine learning type that looks for data patterns. Unlike supervised learning, unsupervised learning doesn’t learn from labeled data. This type of machine learning is often used to develop predictive models and to create clusters. For example, you can use unsupervised learning to group customers based on purchase behavior, and then make product recommendations based on the purchasing patterns of similar customers. Hidden Markov models, k-means, hierarchical clustering, and Gaussian mixture models are common algorithms used during unsupervised learning."
+        }
+    ]
+}
